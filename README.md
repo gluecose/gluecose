@@ -1,13 +1,10 @@
-# Introduction:
+# Introduction
 GLUECOSE provides an interoperability framework for various COSE libraries.
 At the same time, it is a single place where one can find with ease, which COSE library
 is best suited for ones project specific needs.
 
-# Need for Gluecose?
-COSE is scary. COSE has a very wide feature spectrum. It is quite complex.
-Complexity multiplied with a vast range of features amplify the trepidation.
-Hence when a software developer wants to pick a COSE Library for their project,
-one does not know, what one gets ?
+# Motivation
+COSE has a very wide feature spectrum and is quite complex. This makes it difficult for library implementors to test and verify their libraries. Also, many implementors choose to implement a subset of the full COSE specification. This makes it difficult for developers to know which COSE library to select given their project's needs.
 
 # Vision
 Have a clear view of tables that express the support of features by a certain COSE library, so that a user that needs to decide whether to use a certain crypto primitive for their software project can clearly identify the level of support for that feature in the open-source software ecosystem.
